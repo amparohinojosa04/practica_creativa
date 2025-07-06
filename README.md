@@ -32,7 +32,7 @@ Desplegar una arquitectura Big Data dockerizada capaz de:
 ##  Pasos realizados 
  **1. Dockerización completa**
 
-- Encapsulamos cada servicio en contenedores Docker y definimos docker-compose.yaml para levantar toda la arquitectura.
+- Encapsulamos cada servicio en contenedores Docker y definimos docker-compose.yaml para levantar toda la arquitectura con `docker compose up --build` .
 
  **2. Modificación de la aplicación Flask**
 
