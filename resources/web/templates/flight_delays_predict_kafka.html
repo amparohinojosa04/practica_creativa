@@ -29,6 +29,24 @@
       <p>Delay: <span id="result" style="display: inline-block;"></span></p>
   </div>
 
-  <!-- Load our form processing javascript -->
+  <!-- Load our form processing javascript (opcional: puedes quitarlo si solo usas WebSocket) -->
   <script src="/static/flight_delay_predict_polling.js"></script>
+
+  <!-- WebSocket client -->
+  <script>
+    const socket = io();  // Conexión automática al mismo host
+
+    socket.on('connect', () => {
+      console.log("Conectado a WebSocket");
+    });
+
+    socket.on('kafka_response', function(data) {
+      console.log("Mensaje Kafka recibido:", data);
+
+      // Mostrar resultado si tiene campo Delay
+      if (data && data.Delay !== undefined) {
+        document.getElementById("result").innerText = `${data.Delay} minutos`;
+      }
+    });
+  </script>
 {% endblock %}
