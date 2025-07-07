@@ -1,6 +1,6 @@
 # PRÁCTICA CREATIVA – Predicción de retrasos de vuelo
 
-En esta práctica final de Ingeniería Big Data en la Nube**, hemos implementado una arquitectura completa para predecir retrasos de vuelos en tiempo real utilizando diversas tecnologías. Se explica a continuación el enfoque que hemos realizado.
+En esta práctica final de Ingeniería Big Data en la Nube, hemos implementado una arquitectura completa para predecir retrasos de vuelos en tiempo real utilizando diversas tecnologías. Se explica a continuación el enfoque que hemos realizado.
 
 
 ## Objetivos
