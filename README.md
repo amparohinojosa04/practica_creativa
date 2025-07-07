@@ -63,8 +63,10 @@ Spark se utiliza como motor de procesamiento para:
 - Spark consulta directamente en Cassandra durante la ejecución del job de predicción, eliminando la dependencia de MongoDB.
 
 
-
+---
 
 **Autores**
+
 Amparo Hinojosa Martínez 
+
 Carmen Hidalgo
