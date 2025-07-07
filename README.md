@@ -21,10 +21,10 @@ Desplegar una arquitectura Big Data dockerizada capaz de:
 | **Docker** | Encapsulación en contenedores y orquestación de la arquitectura completa. |
 | **Flask** | Aplicación web para introducir datos de vuelos y mostrar predicciones. |
 | **Kafka** | Sistema de mensajería para enviar y recibir peticiones y resultados. |
-| **Spark** | Motor de procesamiento para ejecutar los modelos de predicción. |
+| **Spark** | Motor de procesamiento. |
 | **MongoDB** | Almacenamiento de resultados de predicción. |
 | **HDFS** | Almacenamiento adicional. |
-| **Cassandra** | Consulta de distancias entre aeropuertos para el job de predicción. |
+| **Cassandra** |Almacenamiento y consulta de distancias entre aeropuertos para el job de predicción. |
 | **NiFi** | Lectura periódica de las predicciones desde Kafka y guardado en ficheros .txt. |
 
 ---
