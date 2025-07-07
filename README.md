@@ -69,4 +69,4 @@ Spark se utiliza como motor de procesamiento para:
 
 Amparo Hinojosa Martínez 
 
-Carmen Hidalgo
+Carmen Hidalgo Jiménez
